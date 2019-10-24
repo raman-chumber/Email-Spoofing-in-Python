@@ -1,5 +1,7 @@
 ## Socket Programming using python – Email Spoofing
 
+Email spoofing is a tactic used in phishing attacks and spams. The email header is forged by the attacker in such a way that the email looks like it has originated from somewhere else other than its actual source. 
+
 ### Goal: 
 
 The goal of this programming assignment is to create a simple mail client that sends email to any recipient. The client will need to establish a TCP connection with a mail server (e.g. ECS mail server: gaia.ecs.cus.edu in this case), dialogue with the mail server using the SMTP protocol, send an email message to a recipient (e.g. to myself) via the mail server, and finally close the TCP connection with the mail server.
